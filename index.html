@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <style> 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
@@ -58,6 +59,7 @@ body, html {
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
+>>>>>>> 14a829efdbc97de4a8f862d3157a4c072e90763b
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -68,11 +70,10 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> For Prospective Students</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Sponsors Page</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> FAQ</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Sponsors Page</a>
+    <!-- fa fa-th -->
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-comment-o"></i> FAQ</a>
+
   </div>
 
   <!-- Navbar on small screens -->
@@ -80,7 +81,6 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">For Prospective Students</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">Sponsors Page</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">FAQ</a>
-    <a href="#" class="w3-bar-item w3-button"></a>
   </div>
 </div>
 
@@ -88,18 +88,32 @@ body, html {
   <div class="mySlides w3-display-container w3-center">
     <img src="photos/2017group.jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<<<<<<< HEAD
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>
+=======
       <h3>CS Kickstart 2017</h3>
+>>>>>>> 14a829efdbc97de4a8f862d3157a4c072e90763b
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
     <img src="photos/3.jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<<<<<<< HEAD
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+=======
       <h3>Big C Hike</h3> 
+>>>>>>> 14a829efdbc97de4a8f862d3157a4c072e90763b
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
     <img src="photos/18.jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<<<<<<< HEAD
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+=======
       <h3>Hack Night</h3>  
     </div>
   </div>
@@ -124,6 +138,7 @@ body, html {
     <img src="photos/2015group.jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>CS Kickstart 2015</h3> 
+>>>>>>> 14a829efdbc97de4a8f862d3157a4c072e90763b
     </div>
   </div>
  
@@ -341,7 +356,7 @@ body, html {
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
- 
+
 <!-- Add Google Maps -->
 <script>
 function myMap()
@@ -404,12 +419,12 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000);    
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
 }
 
 
